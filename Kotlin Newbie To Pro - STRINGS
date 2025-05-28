@@ -1,0 +1,6 @@
+fun main() {
+    var name : String = "Abdelghani"
+
+    println(name.reversed().uppercase());
+
+}
