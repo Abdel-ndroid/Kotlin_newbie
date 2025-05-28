@@ -1,0 +1,25 @@
+import java.lang.Math
+
+fun main() {
+
+    var formule = 0.75 * Math.PI * Math.pow(5.0 ,3.0);
+    println("The volume of the sphere is : $formule")
+
+}
+
+
+//Autre solution 
+import java.lang.Math
+
+fun main() {
+    var ra = Math.pow(5.0 ,3.0);
+    var formule = 0.75 * Math.PI * ra ;
+    println("The volume of the sphere is : $formule")
+
+}
+//Autre solution 
+fun main() {
+    var ra = Math.pow(5.0, 3.0)  // 5^3 = 125.0
+    var formule = 0.75 * Math.PI * ra  // Formula for sphere volume (should be (4/3) * PI * r³)
+    println("The volume of the sphere is: %.2f".format(formule))
+}
